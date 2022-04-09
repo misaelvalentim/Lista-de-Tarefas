@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do List</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <section class="ToDoList">
-        <form class="ToDoList__block">
-            <h1 class="ToDoList__title">To do list</h1>
-            <div class="ToDoList__field">
-                <input type="text" name="field" id="field" class="ToDoList__task" placeholder="Add a task here">
-                <button class="ToDoList__add">Add</button>
-            </div>
-            <div class=""></div>
-        </form>
-    </section>
+  <section class="container">
+    <h1>Lista de tarefas</h1>
+    <p>
+      <input type="text" class="input-tarefa">
+      <button class="btn-tarefa">Adicionar nova tarefa</button>
+    </p>
+    <ul class="tarefas"></ul>
+  </section>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
